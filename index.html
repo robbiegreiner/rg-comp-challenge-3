@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Static Comp 3</title>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
@@ -16,9 +17,7 @@
             <h6>Jared Dunn</h6>
         </article>
         <article class="mobile-top-nav">
-          <h2>MAIN</h2>
-          <h2>ADMIN</h2>
-          <h2>CATEGORIES</h2>
+          <img src="images/options.svg" class="mobile-menu-button" alt="">
         </article>
       </div>
       <article class="main-left-nav">
@@ -44,28 +43,33 @@
       <article class="categories-left-nav">
         <ul>
           <li class="small-text">Categories</li>
-          <li><img src="images/users.svg" class="icons" alt="">Administrative</li>
+          <li><input type="checkbox" name="" value="" checked>Administrative</li>
+          <li><input type="checkbox" name="" value="" checked>Design</li>
+          <li><input type="checkbox" name="" value="" checked>Executive</li>
+          <li><input type="checkbox" name="" value="" checked>Human Resources</li>
+          <!-- <li><img src="images/users.svg" class="icons" alt="">Administrative</li>
           <li><img src="images/locations.svg" class="icons" alt="">Design</li>
           <li><img src="images/workflows.svg" class="icons" alt="">Executive</li>
-          <li><img src="images/resumes.svg" class="icons" alt="">Human Resources</li>
+          <li><img src="images/resumes.svg" class="icons" alt="">Human Resources</li> -->
         </ul>
       </article>
     </section>
     <section class="right">
       <article class="search-nav">
-        <div class="drop-down-box">
-
+        <div class="drop-down-box drop-down-box-1">
+          <img src="images/left-arrow.svg" class="left-arrow" alt="">
         </div>
         <div class="search-bar">
+          <img src="images/magnifying-glass.svg" class="mag-glass" alt="">
+          <input type="text" class="search-input" name="" value="" placeholder="Search for a job, task or resume">
+        </div>
+        <div class="drop-down-box drop-down-box-2">
 
         </div>
-        <div class="drop-down-box">
+        <div class="drop-down-box drop-down-box-3">
 
         </div>
-        <div class="drop-down-box">
-
-        </div>
-        <div class="drop-down-box drop-down-box-right">
+        <div class="drop-down-box drop-down-box-4">
 
         </div>
       </article>
@@ -74,12 +78,54 @@
       <article class="chart-area">
         <div class="circle-area">
         </div>
+        <div class="circle-arrow-button">
+        </div>
         <div class="bar-area">
         </div>
       </article>
       <article class="bottom-area">
         <div class="bottom-left">
-
+          <div class="job-description-box">
+            <p class="job-description-text">JOB DESCRIPTION</p>
+            <button type="button" class="edit-button" name="button">EDIT</button>
+          </div>
+          <div class="job-info-container ">
+            <p class="job-info-type">POSITION TITLE</p>
+            <p class="job-info-content">Assistant to the CEO</p>
+          </div>
+          <div class="job-info-container">
+            <p class="job-info-type">LOCATION</p>
+            <p class="job-info-content">Silicon Valley</p>
+          </div>
+          <div class="job-info-container">
+            <p class="job-info-type">EMPLOYMENT TYPE</p>
+            <p class="job-info-content">Full-time</p>
+          </div>
+          <div class="job-info-container">
+            <p class="job-info-type">EXPERIENCE</p>
+            <p class="job-info-content">Mid-level</p>
+          </div>
+          <div class="job-info-container">
+            <p class="job-info-type">STATUS</p>
+            <p class="job-info-content">Open</p>
+          </div>
+          <div class="job-info-container job-info-big-box">
+            <p class="job-info-type">DESCRIPTION</p>
+            <p class="job-info-content job-info-content-big">The assistant to the CEO will be responsible for anything that he could ever ask of them.
+                You will be required to work 100 hours a week and sleep in a tent outside his house.  You will assist him in many
+                anti-trust crimes and will ensure that the company is at the forefront of all unethical and questionable activities.
+                This is just a touch of what you should expect to do.
+            </p>
+          </div>
+          <div class="job-info-container">
+            <p class="job-info-type">HIRING LEAD</p>
+            <p class="job-info-content gavin-text">
+            <img src="images/gavin.jpg" alt="" class="gavin-img"/><span class="gavin">Gavin Belson</span></p>
+          </div>
+          <div class="job-info-container">
+            <p class="job-info-type">APPROVED SALARY</p>
+            <p class="job-info-content">$32,000</p>
+          </div>
         </div>
         <div class="bottom-right">
 
