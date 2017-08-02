@@ -97,6 +97,53 @@ input[type="checkbox"]{
   margin-right: 10px;
 }
 
+.regular-checkbox{
+  -webkit-appearance: none;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+  padding: 7px;
+  border-radius: 2px;
+  display: inline-block;
+  position: relative;
+}
+
+
+.regular-checkbox:active, .regular-checkbox:checked:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+.regular-checkbox:checked {
+	background-color: #e9ecee;
+	border: 1px solid #adb8c0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: #99a1a7;
+}
+
+.regular-checkbox:checked:after {
+	content: '\2714';
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: #99a1a7;
+}
+
+#checkbox1{
+  background-color: yellow;
+}
+
+#checkbox2{
+  background-color: #1AA2F2;
+}
+
+#checkbox3{
+  background-color: red;
+}
+
+#checkbox4{
+  background-color: green;
+}
+
+
 .admin-left-nav{
   height: 250px;
   width: 100%;
